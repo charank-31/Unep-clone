@@ -1,0 +1,372 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  height: 7vh;
+}
+
+.navbar ul {
+  margin: 0;
+  margin-left: 40%;
+  padding-top: 8px;
+  text-align: center;
+  border: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.navbar li:hover {
+  opacity: 0.6;
+}
+
+.navbar nav li option,
+.navbar nav li select {
+  background-color: rgb(88, 86, 86);
+}
+
+.navbar nav li input {
+  border: none;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  font-style: italic;
+}
+.navbar nav li input:focus {
+  outline: none;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+.mainnav a {
+  padding: 50px 15px;
+  font-size: 25px;
+  text-decoration: none;
+  border: none;
+  color: rgb(63, 63, 63);
+}
+.logo > img {
+  float: left;
+  width: 120px;
+}
+
+.logo {
+  padding: 0 5%;
+}
+
+.logo li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.logo a:hover {
+  opacity: 0.8;
+  background-color: gainsboro;
+}
+
+.logo ul {
+  margin-top: 24px;
+  margin-left: 500px;
+}
+
+.twocol {
+  padding: 0 5%;
+  height: 100vh;
+  margin-top: 65px;
+  position: relative;
+}
+
+.twocol .article-img {
+  width: 60%;
+  height: 100%;
+}
+
+.twocol .two-row {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 17px;
+}
+
+.twocol .article-img img {
+  width: 100%;
+  height: 80%;
+}
+.twocol .two-row img {
+  width: 540px;
+  height: 50%;
+}
+
+.timg {
+  position: absolute;
+  bottom: 0;
+  right: 67px;
+}
+
+.set {
+  background-color: rgb(52, 185, 237);
+  height: 20%;
+  position: relative;
+  bottom: 4px;
+}
+.set p {
+  color: white;
+  font-size: x-large;
+  margin-top: 0;
+  padding-left: 40px;
+}
+
+.blue .cap {
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.sta {
+  position: relative;
+  top: 140px;
+  left: 50px;
+  border: 5px solid white;
+  padding: 40px;
+  width: 200px;
+  color: white;
+  font-size: large;
+  background-color: transparent;
+}
+
+.learnmore {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  border: 5px solid white;
+  padding: 40px;
+  width: 200px;
+  color: white;
+  font-size: large;
+  background-color: transparent;
+}
+
+.speech {
+  width: 450px;
+  position: absolute;
+  bottom: 170px;
+  left: 170px;
+  border: 5px solid white;
+  padding: 40px;
+  color: white;
+  font-size: large;
+}
+
+.sta:hover,
+.speech:hover,
+.learnmore:hover {
+  background-color: rgba(31, 29, 29, 0.5);
+}
+
+.intl-img img {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  padding-right: 60px;
+}
+
+.intl {
+  position: relative;
+}
+
+.intl-img {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  border-right: 1px solid rgb(181, 179, 179);
+  display: inline-block;
+  text-align: center;
+}
+
+.intl-content {
+  position: absolute;
+  top: 35px;
+  left: 400px;
+  padding-left: 25px;
+}
+
+.intl-content .head {
+  font-weight: bold;
+  font-size: large;
+}
+
+.intl-content h1 {  
+  font-size: 2.4rem;
+  color: rgb(51, 178, 228);
+}
+.intl-content h1:hover,
+.intl-content .head:hover {
+  color: rgb(82, 152, 180);
+}
+.grpimg {
+  margin-top: 80px;
+  padding-bottom: 70px;
+}
+
+.grpimg td {
+  width: 30%;
+  padding: 20px;
+}
+.grpimg td img {
+  width: 100%;
+}
+
+.grpimg td p:nth-child(3) {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.grpimg td p:nth-child(3):hover {
+  opacity: 0.5;
+}
+
+.grpimg td p:nth-child(2) {
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.b1 {
+  text-align: center;
+  padding: 10px;
+  margin-left: 45%;
+  margin-bottom: 55px;
+  background-color: seagreen;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.b1:hover {
+  background-color: rgb(56, 92, 72);
+}
+
+.bg {
+  background-image: url(./bgimg.png);
+  min-height: 500px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ar2 {
+  padding: 0 5%;
+}
+
+.bg {
+  color: white;
+  font-size: large;
+  padding: 0 5%;
+}
+
+.bg-left h1 {
+  font-size: 40px;
+}
+
+.bg-left {
+  width: 40%;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.bg-left p {
+  font-size: larger;
+}
+.bg-left .b2 {
+  width: 400px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 15px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.bg-left .b2:hover {
+  background-color: rgba(31, 29, 29, 0.5);
+}
+
+.bg-right {
+  display: inline-block;
+  margin-left: 400px;
+  text-align: center;
+}
+
+.bg-right img {
+  width: 200px;
+}
+
+footer {
+  background-color: rgb(52, 185, 237);
+  height: 55vh;
+}
+
+.blue {
+  padding: 0 5%;
+}
+
+.one,
+.two,
+.three {
+  width: 30%;
+  display: inline-block;
+}
+
+.one p,
+.two p,
+.three p {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.blue li {
+  color: white;
+  line-height: 30px;
+  padding: 0;
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.cp {
+  color: rgba(255, 255, 255, 0.764);
+  font-size: smaller;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+footer i {
+  display: inline-block;
+  color: white;
+  padding-left: 20px;
+}
+
+footer i:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  margin-left: 800px;
+}
